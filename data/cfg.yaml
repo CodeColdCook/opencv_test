@@ -1,0 +1,21 @@
+%YAML:1.0
+---
+pmtd_usv_fusion:
+  debug: 1
+  switch_image_stitch: 1
+  switch_object_fusion: 1
+  switch_cloud_stitch: 1
+  switch_boundary_fusion: 1
+  device_indexs:
+    - 01
+    - 02
+    - 03
+    - 04
+  rate_color_cloud: 5
+  rate_image_stitch: 5
+  file_mannager_cfg_path: /opt/pmtd/config/pmtd_driver_ecal/pmtd_device_config.yaml
+  msg_sync_cfg_path: /opt/pmtd/config/pmtd_msg_sync/sync_config.yaml
+  sdk_cfg_path: /opt/pmtd/config/pmtd_driver_ecal/pmtd_sdk_config.yaml
+  cloud_cluster_cfg_path: /workspace/pmtd_usv_perception/config/cluster_config.yaml
+  color_cloud_cfg_path: /opt/pmtd/config/pmtd_color_cloud/color_cloud.yaml
+  pcpt_cfg_path: /workspace/pmtd_usv_perception/config/detection_config.yaml
